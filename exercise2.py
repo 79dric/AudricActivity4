@@ -1,6 +1,6 @@
 import streamlit as st
 
-
+st.title("Control de acceso")
 edad= st.number_input(
   "La edad de esta persona es:",
   value=18 
