@@ -1,8 +1,10 @@
 import streamlit as st
 
 
-st.number_input(
+edad= st.number_input(
   "La edad de esta persona es:",
-  value= None
+  value=18 
 )
+
+st.checkbox("Tiene identificación")
             
