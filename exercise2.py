@@ -8,7 +8,7 @@ edad= st.number_input(
 
 identificacion= st.checkbox("Tiene identificación")
 
-if 18<=edad and identificación==true:
+if 18<=edad and identificacion=True:
   st.write("puede ingresar")
 else:
   st.write("no puede ingresar")
