@@ -6,5 +6,10 @@ edad= st.number_input(
   value=18 
 )
 
-st.checkbox("Tiene identificación")
+identificacion= st.checkbox("Tiene identificación")
+
+if 18<=edad and identificación= True:
+  st.write("puede ingresar")
+else:
+  st.write("no puede ingresar")
             
